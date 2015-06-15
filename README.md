@@ -18,12 +18,12 @@
 wwdc_download.sh:
 
 	/* What it can do */
-	 This file is responsible for downloading the file all 100 videos mentioned in either of "wwdc_downloadListSD.txt" or "wwdc_downloadListHD.txt" files.
+	 This file is responsible for downloading all videos mentioned in either of "wwdc_downloadListSD.txt" or "wwdc_downloadListHD.txt" files (based on your choice, by default, we download SD).
 	
 	/* How ? */
 	Just execute following command at the terminal in a mac:
 		./wwdc_download.sh <DOWNLOAD_FOLDER> <SD/HD>
-		./wwdc_download.sh /Volumes/Data/RKS/iTunes_Videos/WWDC2014/0Videos 1
+		./wwdc_download.sh /Volumes/Data/RKS/iTunes_Videos/WWDC2015/0Videos 1
 	
 	/* Parameters */
 	DOWNLOAD_FOLDER: Location, where you want your download to go to.
